@@ -6,13 +6,11 @@
 * **Assigned Modules:** User Authentication, User Management, and Product Reviews[cite: 1, 4]
 
 ---
-
-## 📌 Module Overview
 This module handles secure user authentication, authorization, role management, and product reviews for the Udawatta Stores web application[cite: 4]. It provides a full-stack implementation comprising Spring Boot REST APIs with JWT security on the backend and React components on the frontend[cite: 4].
 
 ---
 
-## 📂 Contributed Files
+##Contribute files
 
 ### Backend (`udawatta_stores_backend`)[cite: 4]
 
@@ -20,7 +18,7 @@ This module handles secure user authentication, authorization, role management, 
 * `UserController.java` – Endpoints for user registration, login, and user profile management[cite: 4].
 * `ReviewController.java` – Endpoints for adding, retrieving, and managing product reviews[cite: 4].
 
-#### Models / Entities
+#### Models
 * `User.java` – JPA entity mapping user details, credentials, and roles[cite: 4].
 * `Review.java` – JPA entity mapping product ratings, comments, and timestamps to users and products[cite: 4].
 
@@ -47,7 +45,7 @@ This module handles secure user authentication, authorization, role management, 
 
 ---
 
-## 🚀 Key Functional Features
+##Key Functional Features
 
 1. **Stateless JWT Authentication:** Secure login session handling with cryptographic token generation and validation[cite: 4].
 2. **Spring Security Integration:** Configured security filter chains for protected endpoints and role-based permissions[cite: 4].
@@ -55,7 +53,4 @@ This module handles secure user authentication, authorization, role management, 
 4. **Product Review Handling:** Allows authenticated users to submit ratings and feedback tied to specific products[cite: 4].
 5. **Client-Side Route Protection:** Automatic redirects for unauthorized users trying to access restricted application routes[cite: 4].
 
----
 
-## 🛠️ Verification
-All committed files strictly cover Member 1 functional deliverables without altering components belonging to Product Catalog (Member 2), Cart/Checkout (Member 3), or Order/Admin (Member 4)[cite: 1, 4].
